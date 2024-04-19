@@ -1,0 +1,34 @@
+.body{
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFF;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-address{
+    color: #434455;
+    font-style: normal;
+}
+
+.main .main-first .main-first-text, .main .main-first .main-button{
+    color: #FFF;
+}
+
+.main .main-benefits p{
+    color: #434455;
+}
+
+.main .main-team p{
+    color: #434455;
+}
+
+.footer .footer-text{
+    color: #F4F4FD;
+}
