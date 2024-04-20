@@ -1,34 +1,110 @@
-.body{
-    font-family: "Roboto", sans-serif;
-    color: #2E2F42;
-    background-color: #FFF;
+:root {
+  --primary-brand-corol: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f42;
+  --hero-background-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
 }
 
-ul, ol{
-    list-style-type: none;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
 }
 
-a {
-    text-decoration: none;
+ul,
+ol {
+  list-style-type: none;
 }
 
-.header-address{
-    color: #434455;
-    font-style: normal;
+h1,
+h2 {
+  text-align: center;
 }
 
-.main .main-first .main-first-text, .main .main-first .main-button{
-    color: #FFF;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
-.main .main-benefits p{
-    color: #434455;
+.header .logo span {
+  color: #2e2f42;
 }
 
-.main .main-team p{
-    color: #434455;
+.header {
+  background-color: #fff;
 }
 
-.footer .footer-text{
-    color: #F4F4FD;
+.header .header-nav a,
+.header .header-address a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.header .header-nav a:focus,
+.header .header-address a:focus,
+.header .header-nav a:hover,
+.header .header-address a:hover {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.header .header-nav a:active,
+.header .header-address a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.header .header-address {
+  color: #434455;
+  font-style: normal;
+}
+
+.main .main-first {
+  background-color: #2e2f42;
+}
+
+.main .main-first .main-first-text {
+  color: #fff;
+}
+
+.main .main-first .main-button {
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.main .main-benefits p {
+  color: #434455;
+}
+
+.main .main-doing {
+  background-color: #fff;
+}
+
+.main .main-team {
+  background-color: #f4f4fd;
+}
+
+.main .main-team p {
+  color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo span {
+  color: #f4f4fd;
+}
+
+.footer .footer-text {
+  color: #f4f4fd;
 }
