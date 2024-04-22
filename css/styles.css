@@ -66,10 +66,10 @@ button {
 .header-list-link:hover,
 .header-list-link:focus {
   color: var(--ocean);
-  text-decoration: underline;
 }
 .header-address-link {
   color: var(--slate);
+  font-style: normal;
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -130,6 +130,7 @@ button {
 }
 .main-team-list-pic {
   text-align: center;
+  background-color: var(--white);
 }
 .main-team-person {
   font-weight: 500;
