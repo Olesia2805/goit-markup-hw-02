@@ -95,14 +95,14 @@ button {
   text-align: center;
   color: var(--white);
 }
-.main-button {
+.main-button-home {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
 }
-.main-button:hover,
-.main-button:focus {
+.main-button-home:hover,
+.main-button-home:focus {
   background-color: var(--ocean);
 }
 .main-benefits-point {
@@ -149,12 +149,12 @@ button {
   letter-spacing: 0.04em;
   text-align: center;
 }
-.main-button {
+.main-button-portfolio {
   color: var(--iris);
   background-color: var(--cloud);
 }
-.main-button:hover,
-.main-button:focus {
+.main-button-portfolio:hover,
+.main-button-portfolio:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
